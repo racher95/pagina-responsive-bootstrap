@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOREM IPSUM</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">LOREM IPSUM</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Search Form - First in mobile menu -->
+                <form class="d-lg-none search-form-mobile mb-3" role="search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Dolor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Amet</a>
+                    </li>
+                    <li class="nav-item d-lg-none">
+                        <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#opcionesSubmenu" aria-expanded="false">Opciones</a>
+                        <div class="collapse opciones-submenu" id="opcionesSubmenu">
+                            <a href="#" class="submenu-item">Opción 1</a>
+                            <a href="#" class="submenu-item">Opción 2</a>
+                            <a href="#" class="submenu-item">Opción 3</a>
+                            <a href="#" class="submenu-item">Opción 4</a>
+                        </div>
+                    </li>
+                </ul>
+                
+                <!-- Search Form - Right side on large screens -->
+                <form class="d-none d-lg-flex search-form" role="search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar (visible on LG screens) -->
+            <div class="col-lg-3 d-none d-lg-block sidebar-container">
+                <div class="sidebar">
+                    <a href="#" class="sidebar-item">Opción 1</a>
+                    <a href="#" class="sidebar-item">Opción 2</a>
+                    <a href="#" class="sidebar-item">Opción 3</a>
+                    <a href="#" class="sidebar-item">Opción 4</a>
+                </div>
+            </div>
+
+            <!-- Main Content Area -->
+            <div class="col-lg-9 col-12">
+                <!-- Hero Section with Carousel -->
+                <div class="hero-section text-center">
+                    <h1>Lorem ipsum...</h1>
+                    <div id="textCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="carousel-text">...vestibulum mollis, tortor ac congue commodo</div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-text">...adipiscing elit, nisi neque bibendum elit</div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-text">...pharetra risus fringilla lobortis vestibulum</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text Content -->
+                <div class="content-section">
+                    <div class="row">
+                        <div class="col-md-6 col-12 content-column">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis, tortor ac congue commodo, nisi neque bibendum elit, quis vulputate dolor augue ut mauris. tincidunt.</p>
+                            <p>Phasellus eleifend semper tempor. Quisque mi lorem, laoreet eu urna sit amet, tempor volutpat est. Vestibulum lobortis nulla vel odio laoreet, iaculis rhoncus neque porttitor.</p>
+                            <p>Fusce vitae enim et tellus lacinia condimentum eu at massa. Nullam laoreet, elit quis hendrerit maximus, ante sem congue lorem, at vestibulum felis mauris et arcu.</p>
+                        </div>
+                        <div class="col-md-6 col-12 content-column">
+                            <p>Mauris mattis porttitor erat, in pharetra risus fringilla lobortis. Vestibulum et ante commodo, imperdiet neque ac, tempus felis. Nullam sed pharetra purus. Donec sit amet ultricies nisi.</p>
+                            <p>In mi velit, fringilla sed velit vel, ornare varius dui. Nunc viverra diam sit amet mollis posuere. Nullam semper odio in consectetur ornare.</p>
+                            <p>Proin suscipit orci mi, ut hendrerit mi molestie nec. Donec efficitur risus erat, eu auctor massa molestie vitae.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-12 content-column">
+                            <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec lectus ligula, ultricies ut est nec, varius dignissim nulla.</p>
+                        </div>
+                        <div class="col-md-6 col-12 content-column">
+                            <p>In aliquet fringilla libero, quis dapibus massa tincidunt a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
